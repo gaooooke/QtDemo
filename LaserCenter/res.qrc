@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/50.bmp</file>
+        <file>res/60.bmp</file>
+        <file>res/75.bmp</file>
+        <file>res/auto.bmp</file>
+        <file>res/btn.bmp</file>
+        <file>res/cam.bmp</file>
+        <file>res/Doc.ico</file>
+        <file>res/file.bmp</file>
+        <file>res/openfile.jpg</file>
+        <file>res/set.bmp</file>
+        <file>res/start.bmp</file>
+        <file>res/stop.bmp</file>
+        <file>res/tg.bmp</file>
+        <file>res/tj.bmp</file>
+        <file>res/txt.bmp</file>
+    </qresource>
+</RCC>
