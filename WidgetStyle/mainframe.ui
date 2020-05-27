@@ -6,853 +6,958 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>843</width>
-    <height>670</height>
+    <width>1149</width>
+    <height>677</height>
    </rect>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>16</width>
+    <height>16</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>MainFrame</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QGridLayout" name="gridLayout_3">
-    <item row="1" column="0">
-     <widget class="QTabWidget" name="tabWidget">
+   <layout class="QGridLayout" name="gridLayout_26">
+    <item row="0" column="0">
+     <widget class="QListWidget" name="listWidgetSel">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
         <horstretch>0</horstretch>
         <verstretch>0</verstretch>
        </sizepolicy>
       </property>
-      <property name="tabPosition">
-       <enum>QTabWidget::South</enum>
-      </property>
-      <property name="tabShape">
-       <enum>QTabWidget::Rounded</enum>
-      </property>
-      <property name="currentIndex">
-       <number>0</number>
-      </property>
-      <widget class="QWidget" name="tab">
-       <attribute name="title">
-        <string>颜色</string>
-       </attribute>
-       <layout class="QGridLayout" name="gridLayout_2">
-        <item row="2" column="2">
-         <widget class="QLineEdit" name="lineEdit_2"/>
-        </item>
-        <item row="4" column="1">
-         <widget class="QPushButton" name="pushButton_9">
-          <property name="text">
-           <string/>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="1">
-         <widget class="QPushButton" name="pushButton_6">
-          <property name="text">
-           <string/>
-          </property>
-         </widget>
-        </item>
-        <item row="7" column="1">
-         <widget class="QPushButton" name="pushButton_12">
-          <property name="text">
-           <string/>
-          </property>
-         </widget>
-        </item>
-        <item row="5" column="1">
-         <widget class="QPushButton" name="pushButton_10">
-          <property name="text">
-           <string/>
-          </property>
-         </widget>
-        </item>
-        <item row="4" column="2">
-         <widget class="QLineEdit" name="lineEdit_5"/>
-        </item>
-        <item row="0" column="1">
-         <widget class="QPushButton" name="pushButton_5">
-          <property name="text">
-           <string/>
-          </property>
-         </widget>
-        </item>
-        <item row="4" column="0">
-         <widget class="QLabel" name="label_5">
-          <property name="text">
-           <string>普通渐变结束</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="2">
-         <widget class="QLineEdit" name="lineEdit"/>
-        </item>
-        <item row="2" column="0">
-         <widget class="QLabel" name="label_3">
-          <property name="text">
-           <string>全局边框颜色</string>
-          </property>
-         </widget>
-        </item>
-        <item row="3" column="2">
-         <widget class="QLineEdit" name="lineEdit_3"/>
-        </item>
-        <item row="6" column="1">
-         <widget class="QPushButton" name="pushButton_11">
-          <property name="text">
-           <string/>
-          </property>
-         </widget>
-        </item>
-        <item row="7" column="0">
-         <widget class="QLabel" name="label_8">
-          <property name="text">
-           <string>边缘高亮颜色</string>
-          </property>
-         </widget>
-        </item>
-        <item row="5" column="0">
-         <widget class="QLabel" name="label_6">
-          <property name="text">
-           <string>加深渐变开始</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="0">
-         <widget class="QLabel" name="label_2">
-          <property name="text">
-           <string>面板背景颜色</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="0">
-         <widget class="QLabel" name="label">
-          <property name="text">
-           <string>字体文字颜色 </string>
-          </property>
-         </widget>
-        </item>
-        <item row="7" column="2">
-         <widget class="QLineEdit" name="lineEdit_8"/>
-        </item>
-        <item row="2" column="1">
-         <widget class="QPushButton" name="pushButton_7">
-          <property name="text">
-           <string/>
-          </property>
-         </widget>
-        </item>
-        <item row="3" column="1">
-         <widget class="QPushButton" name="pushButton_8">
-          <property name="text">
-           <string/>
-          </property>
-         </widget>
-        </item>
-        <item row="3" column="0">
-         <widget class="QLabel" name="label_4">
-          <property name="text">
-           <string>普通渐变开始</string>
-          </property>
-         </widget>
-        </item>
-        <item row="6" column="2">
-         <widget class="QLineEdit" name="lineEdit_7"/>
-        </item>
-        <item row="5" column="2">
-         <widget class="QLineEdit" name="lineEdit_6"/>
-        </item>
-        <item row="6" column="0">
-         <widget class="QLabel" name="label_7">
-          <property name="text">
-           <string>加深渐变结束</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="2">
-         <widget class="QLineEdit" name="lineEdit_4"/>
-        </item>
-       </layout>
-      </widget>
-      <widget class="QWidget" name="tab_2">
-       <attribute name="title">
-        <string>尺寸</string>
-       </attribute>
-       <layout class="QGridLayout" name="gridLayout_6">
-        <item row="0" column="0">
-         <widget class="QLabel" name="label_11">
-          <property name="text">
-           <string>指示器宽度</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="1">
-         <widget class="QLineEdit" name="lineEdit_10"/>
-        </item>
-        <item row="1" column="0">
-         <widget class="QLabel" name="label_12">
-          <property name="text">
-           <string>指示器高度</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="1">
-         <widget class="QLineEdit" name="lineEdit_11"/>
-        </item>
-        <item row="2" column="1">
-         <spacer name="verticalSpacer_2">
-          <property name="orientation">
-           <enum>Qt::Vertical</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>20</width>
-            <height>169</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-       </layout>
-      </widget>
-      <widget class="QWidget" name="tab_3">
-       <attribute name="title">
-        <string>其他</string>
-       </attribute>
-      </widget>
      </widget>
     </item>
-    <item row="0" column="0">
-     <layout class="QGridLayout" name="gridLayout">
-      <item row="1" column="0">
-       <widget class="QPushButton" name="pushButton_3">
-        <property name="text">
-         <string>打开</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="0">
-       <widget class="QPushButton" name="pushButton">
-        <property name="text">
-         <string>新建</string>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="1">
-       <widget class="QPushButton" name="pushButton_4">
-        <property name="text">
-         <string>另存为</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="1">
-       <widget class="QPushButton" name="pushButton_2">
-        <property name="text">
-         <string>保存</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </item>
-    <item row="0" column="1" rowspan="2">
-     <widget class="QTextEdit" name="textEdit"/>
-    </item>
-    <item row="2" column="0" colspan="2">
-     <widget class="QTabWidget" name="tabWidget_2">
-      <property name="currentIndex">
-       <number>0</number>
-      </property>
-      <widget class="QWidget" name="tab_4">
-       <attribute name="title">
-        <string>常用组件</string>
-       </attribute>
-       <layout class="QGridLayout" name="gridLayout_5">
+    <item row="0" column="1">
+     <widget class="QStackedWidget" name="stackedWidget">
+      <widget class="QWidget" name="page">
+       <layout class="QGridLayout" name="gridLayout_25">
         <item row="0" column="0">
-         <widget class="QGroupBox" name="groupBox">
-          <property name="title">
-           <string>分组框</string>
-          </property>
-          <property name="checkable">
-           <bool>true</bool>
-          </property>
-          <layout class="QGridLayout" name="gridLayout_4">
-           <item row="0" column="0" rowspan="6">
-            <layout class="QVBoxLayout" name="verticalLayout">
-             <item>
-              <widget class="QRadioButton" name="radioButton">
-               <property name="text">
-                <string>单选框1</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QRadioButton" name="radioButton_2">
-               <property name="text">
-                <string>单选框2</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QRadioButton" name="radioButton_3">
-               <property name="text">
-                <string>单选框3</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QCheckBox" name="checkBox">
-               <property name="text">
-                <string>复选框1</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QCheckBox" name="checkBox_2">
-               <property name="text">
-                <string>复选框2</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QCheckBox" name="checkBox_3">
-               <property name="text">
-                <string>复选框3</string>
-               </property>
-              </widget>
-             </item>
-            </layout>
-           </item>
-           <item row="0" column="1" rowspan="6">
-            <layout class="QVBoxLayout" name="verticalLayout_2">
-             <item>
-              <widget class="QPushButton" name="pushButton_13">
-               <property name="text">
-                <string>信息框</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QPushButton" name="pushButton_14">
-               <property name="text">
-                <string>询问框</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QPushButton" name="pushButton_15">
-               <property name="text">
-                <string>错误框</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QPushButton" name="pushButton_16">
-               <property name="text">
-                <string>右下框</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QPushButton" name="pushButton_17">
-               <property name="text">
-                <string>日期框</string>
-               </property>
-              </widget>
-             </item>
-            </layout>
-           </item>
-           <item row="0" column="2" rowspan="6">
-            <layout class="QVBoxLayout" name="verticalLayout_3">
-             <item>
-              <widget class="QPushButton" name="pushButton_20">
-               <property name="text">
-                <string>标准输入框</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QPushButton" name="pushButton_19">
-               <property name="text">
-                <string>密码输入框</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QPushButton" name="pushButton_22">
-               <property name="text">
-                <string>下拉列表框</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QPushButton" name="pushButton_21">
-               <property name="text">
-                <string>弹出新窗体</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QPushButton" name="pushButton_18">
-               <property name="text">
-                <string>关于Qt</string>
-               </property>
-              </widget>
-             </item>
-            </layout>
-           </item>
-           <item row="0" column="3" colspan="2">
-            <widget class="QLabel" name="label_9">
-             <property name="text">
-              <string>Author</string>
-             </property>
-            </widget>
-           </item>
-           <item row="0" column="5" colspan="2">
-            <widget class="QLabel" name="label_10">
-             <property name="frameShape">
-              <enum>QFrame::Box</enum>
-             </property>
-             <property name="frameShadow">
-              <enum>QFrame::Sunken</enum>
-             </property>
-             <property name="text">
-              <string>我是标签</string>
-             </property>
-             <property name="wordWrap">
-              <bool>false</bool>
-             </property>
-            </widget>
-           </item>
-           <item row="0" column="7" colspan="5">
-            <widget class="QLineEdit" name="lineEdit_9">
-             <property name="text">
-              <string>拿人钱财替人消灾,人生江湖如此,程序江湖亦如此.</string>
-             </property>
-            </widget>
-           </item>
-           <item row="1" column="3">
-            <widget class="QSpinBox" name="spinBox"/>
-           </item>
-           <item row="1" column="4" colspan="2">
-            <widget class="QDoubleSpinBox" name="doubleSpinBox"/>
-           </item>
-           <item row="1" column="6" colspan="3">
-            <widget class="QTimeEdit" name="timeEdit"/>
-           </item>
-           <item row="1" column="9" colspan="2">
-            <widget class="QDateEdit" name="dateEdit"/>
-           </item>
-           <item row="1" column="11">
-            <widget class="QDateTimeEdit" name="dateTimeEdit"/>
-           </item>
-           <item row="2" column="3" colspan="2">
-            <widget class="QComboBox" name="comboBox"/>
-           </item>
-           <item row="2" column="5" colspan="3">
-            <widget class="QComboBox" name="comboBox_2"/>
-           </item>
-           <item row="2" column="8" colspan="2">
-            <widget class="QLCDNumber" name="lcdNumber"/>
-           </item>
-           <item row="2" column="10" colspan="2">
-            <widget class="QFontComboBox" name="fontComboBox"/>
-           </item>
-           <item row="3" column="3" colspan="9">
-            <widget class="QSlider" name="horizontalSlider">
-             <property name="orientation">
-              <enum>Qt::Horizontal</enum>
-             </property>
-            </widget>
-           </item>
-           <item row="4" column="3" colspan="9">
-            <widget class="QProgressBar" name="progressBar">
-             <property name="value">
-              <number>24</number>
-             </property>
-            </widget>
-           </item>
-           <item row="5" column="3" colspan="9">
-            <widget class="QScrollBar" name="horizontalScrollBar">
-             <property name="orientation">
-              <enum>Qt::Horizontal</enum>
-             </property>
-            </widget>
-           </item>
-           <item row="6" column="0" colspan="3">
-            <spacer name="verticalSpacer">
-             <property name="orientation">
-              <enum>Qt::Vertical</enum>
-             </property>
-             <property name="sizeType">
-              <enum>QSizePolicy::Fixed</enum>
-             </property>
-             <property name="sizeHint" stdset="0">
-              <size>
-               <width>248</width>
-               <height>33</height>
-              </size>
-             </property>
-            </spacer>
-           </item>
-           <item row="0" column="12" rowspan="6">
-            <widget class="QSlider" name="verticalSlider">
-             <property name="orientation">
-              <enum>Qt::Vertical</enum>
-             </property>
-            </widget>
-           </item>
-           <item row="0" column="13" rowspan="6">
-            <widget class="QProgressBar" name="progressBar_2">
-             <property name="value">
-              <number>24</number>
-             </property>
-             <property name="orientation">
-              <enum>Qt::Vertical</enum>
-             </property>
-             <property name="textDirection">
-              <enum>QProgressBar::TopToBottom</enum>
-             </property>
-            </widget>
-           </item>
-           <item row="0" column="14" rowspan="6">
-            <widget class="QScrollBar" name="verticalScrollBar">
-             <property name="orientation">
-              <enum>Qt::Vertical</enum>
-             </property>
-            </widget>
-           </item>
-          </layout>
-         </widget>
-        </item>
-       </layout>
-      </widget>
-      <widget class="QWidget" name="tab_5">
-       <attribute name="title">
-        <string>多行文本</string>
-       </attribute>
-       <layout class="QGridLayout" name="gridLayout_13">
-        <item row="0" column="0">
-         <layout class="QGridLayout" name="gridLayout_7">
+         <layout class="QGridLayout" name="gridLayout_24">
+          <item row="1" column="0">
+           <widget class="QPushButton" name="pushButton_47">
+            <property name="text">
+             <string>打开</string>
+            </property>
+           </widget>
+          </item>
           <item row="0" column="0">
-           <widget class="QTextEdit" name="textEdit_2"/>
+           <widget class="QPushButton" name="pushButton_48">
+            <property name="text">
+             <string>新建</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QPushButton" name="pushButton_49">
+            <property name="text">
+             <string>另存为</string>
+            </property>
+           </widget>
           </item>
           <item row="0" column="1">
-           <widget class="QPlainTextEdit" name="plainTextEdit"/>
-          </item>
-          <item row="0" column="2">
-           <widget class="QTextBrowser" name="textBrowser"/>
-          </item>
-         </layout>
-        </item>
-       </layout>
-      </widget>
-      <widget class="QWidget" name="tab_6">
-       <attribute name="title">
-        <string>数据表格</string>
-       </attribute>
-       <layout class="QGridLayout" name="gridLayout_8">
-        <item row="0" column="0">
-         <widget class="QTableWidget" name="tableWidget"/>
-        </item>
-       </layout>
-      </widget>
-      <widget class="QWidget" name="tab_7">
-       <attribute name="title">
-        <string>导航界面</string>
-       </attribute>
-       <layout class="QGridLayout" name="gridLayout_10">
-        <item row="0" column="0">
-         <widget class="QWidget" name="widget" native="true">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <layout class="QVBoxLayout" name="verticalLayout_4">
-           <item>
-            <widget class="QPushButton" name="pushButton_23">
-             <property name="text">
-              <string>菜单1</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QPushButton" name="pushButton_24">
-             <property name="text">
-              <string>菜单2</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QPushButton" name="pushButton_25">
-             <property name="text">
-              <string>菜单3</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <spacer name="verticalSpacer_3">
-             <property name="orientation">
-              <enum>Qt::Vertical</enum>
-             </property>
-             <property name="sizeHint" stdset="0">
-              <size>
-               <width>20</width>
-               <height>133</height>
-              </size>
-             </property>
-            </spacer>
-           </item>
-          </layout>
-         </widget>
-        </item>
-        <item row="0" column="1">
-         <layout class="QGridLayout" name="gridLayout_9">
-          <item row="0" column="0">
-           <widget class="QStackedWidget" name="stackedWidget">
-            <property name="currentIndex">
-             <number>1</number>
+           <widget class="QPushButton" name="pushButton_50">
+            <property name="text">
+             <string>保存</string>
             </property>
-            <widget class="QWidget" name="page"/>
-            <widget class="QWidget" name="page_2"/>
            </widget>
           </item>
          </layout>
         </item>
-       </layout>
-      </widget>
-      <widget class="QWidget" name="tab_8">
-       <attribute name="title">
-        <string>树状列表</string>
-       </attribute>
-       <layout class="QGridLayout" name="gridLayout_11">
-        <item row="0" column="0">
-         <widget class="QTreeView" name="treeView">
-          <property name="headerHidden">
-           <bool>false</bool>
+        <item row="0" column="1" rowspan="2">
+         <widget class="QTextEdit" name="textEdit"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QTabWidget" name="tabWidget">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
           </property>
-         </widget>
-        </item>
-        <item row="0" column="1">
-         <widget class="QListView" name="listView"/>
-        </item>
-       </layout>
-      </widget>
-      <widget class="QWidget" name="tab_9">
-       <attribute name="title">
-        <string>日历效果</string>
-       </attribute>
-       <layout class="QHBoxLayout" name="horizontalLayout">
-        <item>
-         <widget class="QCalendarWidget" name="calendarWidget"/>
-        </item>
-        <item>
-         <widget class="QCalendarWidget" name="calendarWidget_2">
-          <property name="gridVisible">
-           <bool>true</bool>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </widget>
-      <widget class="QWidget" name="tab_10">
-       <attribute name="title">
-        <string>tab选项卡</string>
-       </attribute>
-       <layout class="QHBoxLayout" name="horizontalLayout_2">
-        <item>
-         <widget class="QTabWidget" name="tabWidget_3">
-          <property name="tabPosition">
-           <enum>QTabWidget::West</enum>
-          </property>
-          <widget class="QWidget" name="tab_15">
-           <attribute name="title">
-            <string>Tab 1</string>
-           </attribute>
-          </widget>
-          <widget class="QWidget" name="tab_16">
-           <attribute name="title">
-            <string>Tab 2</string>
-           </attribute>
-          </widget>
-         </widget>
-        </item>
-        <item>
-         <widget class="QTabWidget" name="tabWidget_4">
           <property name="tabPosition">
            <enum>QTabWidget::South</enum>
           </property>
-          <widget class="QWidget" name="tab_17">
+          <property name="tabShape">
+           <enum>QTabWidget::Rounded</enum>
+          </property>
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <widget class="QWidget" name="tab_21">
            <attribute name="title">
-            <string>Tab 1</string>
+            <string>颜色</string>
            </attribute>
+           <layout class="QGridLayout" name="gridLayout_3">
+            <item row="2" column="2">
+             <widget class="QLineEdit" name="lineEdit_12"/>
+            </item>
+            <item row="4" column="1">
+             <widget class="QPushButton" name="pushButton_26">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QPushButton" name="pushButton_27">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="1">
+             <widget class="QPushButton" name="pushButton_28">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QPushButton" name="pushButton_29">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="2">
+             <widget class="QLineEdit" name="lineEdit_13"/>
+            </item>
+            <item row="0" column="1">
+             <widget class="QPushButton" name="pushButton_30">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="label_23">
+              <property name="text">
+               <string>普通渐变结束</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QLineEdit" name="lineEdit_14"/>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="label_24">
+              <property name="text">
+               <string>全局边框颜色</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="2">
+             <widget class="QLineEdit" name="lineEdit_15"/>
+            </item>
+            <item row="6" column="1">
+             <widget class="QPushButton" name="pushButton_31">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="0">
+             <widget class="QLabel" name="label_25">
+              <property name="text">
+               <string>边缘高亮颜色</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="0">
+             <widget class="QLabel" name="label_26">
+              <property name="text">
+               <string>加深渐变开始</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_27">
+              <property name="text">
+               <string>面板背景颜色</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_28">
+              <property name="text">
+               <string>字体文字颜色 </string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="2">
+             <widget class="QLineEdit" name="lineEdit_16"/>
+            </item>
+            <item row="2" column="1">
+             <widget class="QPushButton" name="pushButton_32">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QPushButton" name="pushButton_33">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="label_29">
+              <property name="text">
+               <string>普通渐变开始</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="2">
+             <widget class="QLineEdit" name="lineEdit_17"/>
+            </item>
+            <item row="5" column="2">
+             <widget class="QLineEdit" name="lineEdit_18"/>
+            </item>
+            <item row="6" column="0">
+             <widget class="QLabel" name="label_30">
+              <property name="text">
+               <string>加深渐变结束</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <widget class="QLineEdit" name="lineEdit_19"/>
+            </item>
+           </layout>
           </widget>
-          <widget class="QWidget" name="tab_18">
+          <widget class="QWidget" name="tab_22">
            <attribute name="title">
-            <string>Tab 2</string>
+            <string>尺寸</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_14">
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_31">
+              <property name="text">
+               <string>指示器宽度</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLineEdit" name="lineEdit_20"/>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_32">
+              <property name="text">
+               <string>指示器高度</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLineEdit" name="lineEdit_21"/>
+            </item>
+            <item row="2" column="1">
+             <spacer name="verticalSpacer_4">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>169</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_23">
+           <attribute name="title">
+            <string>其他</string>
            </attribute>
           </widget>
          </widget>
         </item>
-        <item>
-         <widget class="QTabWidget" name="tabWidget_5">
-          <property name="tabPosition">
-           <enum>QTabWidget::East</enum>
+        <item row="2" column="0" colspan="2">
+         <widget class="QTabWidget" name="widgetVideo">
+          <property name="currentIndex">
+           <number>0</number>
           </property>
-          <widget class="QWidget" name="tab_19">
+          <widget class="QWidget" name="tab_24">
            <attribute name="title">
-            <string>Tab 1</string>
+            <string>常用组件</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_15">
+            <item row="0" column="0">
+             <widget class="QGroupBox" name="groupBox">
+              <property name="title">
+               <string>分组框</string>
+              </property>
+              <property name="checkable">
+               <bool>true</bool>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_16">
+               <item row="0" column="0" rowspan="6">
+                <layout class="QVBoxLayout" name="verticalLayout_5">
+                 <item>
+                  <widget class="QRadioButton" name="rbtn1">
+                   <property name="text">
+                    <string>单选框1</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QRadioButton" name="radioButton_5">
+                   <property name="text">
+                    <string>单选框2</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QRadioButton" name="radioButton_6">
+                   <property name="text">
+                    <string>单选框3</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_4">
+                   <property name="text">
+                    <string>复选框1</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="ck2">
+                   <property name="text">
+                    <string>复选框2</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QCheckBox" name="ck3">
+                   <property name="text">
+                    <string>复选框3</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item row="0" column="1" rowspan="6">
+                <layout class="QVBoxLayout" name="verticalLayout_6">
+                 <item>
+                  <widget class="QPushButton" name="pushButton_34">
+                   <property name="text">
+                    <string>信息框</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_35">
+                   <property name="text">
+                    <string>询问框</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_36">
+                   <property name="text">
+                    <string>错误框</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_37">
+                   <property name="text">
+                    <string>右下框</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_38">
+                   <property name="text">
+                    <string>日期框</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item row="0" column="2" rowspan="6">
+                <layout class="QVBoxLayout" name="verticalLayout_7">
+                 <item>
+                  <widget class="QPushButton" name="pushButton_39">
+                   <property name="text">
+                    <string>标准输入框</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_40">
+                   <property name="text">
+                    <string>密码输入框</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_41">
+                   <property name="text">
+                    <string>下拉列表框</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_42">
+                   <property name="text">
+                    <string>弹出新窗体</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_43">
+                   <property name="text">
+                    <string>关于Qt</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item row="0" column="3" colspan="2">
+                <widget class="QLabel" name="label_33">
+                 <property name="text">
+                  <string>Author</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="5" colspan="2">
+                <widget class="QLabel" name="label_34">
+                 <property name="frameShape">
+                  <enum>QFrame::Box</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Sunken</enum>
+                 </property>
+                 <property name="text">
+                  <string>我是标签</string>
+                 </property>
+                 <property name="wordWrap">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="7" colspan="5">
+                <widget class="QLineEdit" name="lineEdit_22">
+                 <property name="text">
+                  <string>拿人钱财替人消灾,人生江湖如此,程序江湖亦如此.</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="3">
+                <widget class="QSpinBox" name="spinBox_2"/>
+               </item>
+               <item row="1" column="4" colspan="2">
+                <widget class="QDoubleSpinBox" name="doubleSpinBox_2"/>
+               </item>
+               <item row="1" column="6" colspan="3">
+                <widget class="QTimeEdit" name="timeEdit_2"/>
+               </item>
+               <item row="1" column="9" colspan="2">
+                <widget class="QDateEdit" name="dateEdit_2"/>
+               </item>
+               <item row="1" column="11">
+                <widget class="QDateTimeEdit" name="dateTimeEdit_2"/>
+               </item>
+               <item row="2" column="3" colspan="2">
+                <widget class="QComboBox" name="cbox1"/>
+               </item>
+               <item row="2" column="5" colspan="3">
+                <widget class="QComboBox" name="cbox2"/>
+               </item>
+               <item row="3" column="3" colspan="9">
+                <widget class="QSlider" name="horizontalSlider">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="3" colspan="9">
+                <widget class="QProgressBar" name="progressBar_3">
+                 <property name="value">
+                  <number>24</number>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="3" colspan="9">
+                <widget class="QScrollBar" name="horizontalScrollBar_2">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="6" column="0" colspan="3">
+                <spacer name="verticalSpacer_5">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Fixed</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>248</width>
+                   <height>33</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item row="0" column="12" rowspan="6">
+                <widget class="QSlider" name="verticalSlider_2">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="13" rowspan="6">
+                <widget class="QProgressBar" name="progressBar_4">
+                 <property name="value">
+                  <number>24</number>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="textDirection">
+                  <enum>QProgressBar::TopToBottom</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="14" rowspan="6">
+                <widget class="QScrollBar" name="verticalScrollBar_2">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="11">
+                <widget class="QFontComboBox" name="fontComboBox_2"/>
+               </item>
+               <item row="2" column="8" colspan="3">
+                <widget class="QLCDNumber" name="lcdNumber_2">
+                 <property name="digitCount">
+                  <number>5</number>
+                 </property>
+                 <property name="value" stdset="0">
+                  <double>12345.000000000000000</double>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_25">
+           <attribute name="title">
+            <string>多行文本</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_17">
+            <item row="0" column="0">
+             <layout class="QGridLayout" name="gridLayout_18">
+              <item row="0" column="0">
+               <widget class="QTextEdit" name="textEdit_3"/>
+              </item>
+              <item row="0" column="1">
+               <widget class="QPlainTextEdit" name="plainTextEdit_2"/>
+              </item>
+              <item row="0" column="2">
+               <widget class="QTextBrowser" name="textBrowser_2"/>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_26">
+           <attribute name="title">
+            <string>数据表格</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_19">
+            <item row="0" column="0">
+             <widget class="QTableWidget" name="tableWidgetDataGrid"/>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_27">
+           <attribute name="title">
+            <string>导航界面</string>
+           </attribute>
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <item>
+             <widget class="QWidget" name="widgetLeft" native="true">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_8">
+               <item>
+                <widget class="QPushButton" name="pushButton_44">
+                 <property name="text">
+                  <string>菜单1</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_45">
+                 <property name="text">
+                  <string>菜单2</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_46">
+                 <property name="text">
+                  <string>菜单3</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_6">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>133</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <layout class="QGridLayout" name="gridLayout_21">
+              <item row="0" column="0">
+               <widget class="QStackedWidget" name="stackedWidget_3">
+                <property name="currentIndex">
+                 <number>1</number>
+                </property>
+                <widget class="QWidget" name="page_5"/>
+                <widget class="QWidget" name="page_6">
+                 <layout class="QVBoxLayout" name="verticalLayout">
+                  <item>
+                   <widget class="QWidget" name="widgetTop" native="true">
+                    <property name="baseSize">
+                     <size>
+                      <width>0</width>
+                      <height>0</height>
+                     </size>
+                    </property>
+                    <widget class="QToolButton" name="tbtn1">
+                     <property name="geometry">
+                      <rect>
+                       <x>40</x>
+                       <y>0</y>
+                       <width>191</width>
+                       <height>61</height>
+                      </rect>
+                     </property>
+                     <property name="baseSize">
+                      <size>
+                       <width>16</width>
+                       <height>16</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>...</string>
+                     </property>
+                    </widget>
+                    <widget class="QToolButton" name="tbtn2">
+                     <property name="geometry">
+                      <rect>
+                       <x>240</x>
+                       <y>0</y>
+                       <width>201</width>
+                       <height>61</height>
+                      </rect>
+                     </property>
+                     <property name="text">
+                      <string>...</string>
+                     </property>
+                    </widget>
+                    <widget class="QToolButton" name="tbtn3">
+                     <property name="geometry">
+                      <rect>
+                       <x>450</x>
+                       <y>0</y>
+                       <width>191</width>
+                       <height>61</height>
+                      </rect>
+                     </property>
+                     <property name="text">
+                      <string>...</string>
+                     </property>
+                    </widget>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QWidget" name="widget" native="true"/>
+                  </item>
+                  <item>
+                   <widget class="QWidget" name="widgetBottom" native="true">
+                    <widget class="QLabel" name="label">
+                     <property name="geometry">
+                      <rect>
+                       <x>80</x>
+                       <y>20</y>
+                       <width>54</width>
+                       <height>12</height>
+                      </rect>
+                     </property>
+                     <property name="text">
+                      <string>TextLabel</string>
+                     </property>
+                    </widget>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_28">
+           <attribute name="title">
+            <string>树状列表</string>
+           </attribute>
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <widget class="QTreeWidget" name="treeWidget">
+              <column>
+               <property name="text">
+                <string notr="true">1</string>
+               </property>
+              </column>
+             </widget>
+            </item>
+            <item>
+             <widget class="QListWidget" name="listWidget"/>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_29">
+           <attribute name="title">
+            <string>日历效果</string>
+           </attribute>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="QCalendarWidget" name="calendarWidget_3"/>
+            </item>
+            <item>
+             <widget class="QCalendarWidget" name="calendarWidget_4">
+              <property name="gridVisible">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_30">
+           <attribute name="title">
+            <string>tab选项卡</string>
+           </attribute>
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item>
+             <widget class="QTabWidget" name="tabWidget_6">
+              <property name="tabPosition">
+               <enum>QTabWidget::West</enum>
+              </property>
+              <widget class="QWidget" name="tab_31">
+               <attribute name="title">
+                <string>Tab 1</string>
+               </attribute>
+              </widget>
+              <widget class="QWidget" name="tab_32">
+               <attribute name="title">
+                <string>Tab 2</string>
+               </attribute>
+              </widget>
+             </widget>
+            </item>
+            <item>
+             <widget class="QTabWidget" name="tabWidget_7">
+              <property name="tabPosition">
+               <enum>QTabWidget::South</enum>
+              </property>
+              <widget class="QWidget" name="tab_33">
+               <attribute name="title">
+                <string>Tab 1</string>
+               </attribute>
+              </widget>
+              <widget class="QWidget" name="tab_34">
+               <attribute name="title">
+                <string>Tab 2</string>
+               </attribute>
+              </widget>
+             </widget>
+            </item>
+            <item>
+             <widget class="QTabWidget" name="tabWidget_8">
+              <property name="tabPosition">
+               <enum>QTabWidget::East</enum>
+              </property>
+              <widget class="QWidget" name="tab_35">
+               <attribute name="title">
+                <string>Tab 1</string>
+               </attribute>
+              </widget>
+              <widget class="QWidget" name="tab_36">
+               <attribute name="title">
+                <string>Tab 2</string>
+               </attribute>
+              </widget>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="tab_37">
+           <attribute name="title">
+            <string>设备面板</string>
            </attribute>
           </widget>
-          <widget class="QWidget" name="tab_20">
+          <widget class="QWidget" name="tab_38">
            <attribute name="title">
-            <string>Tab 2</string>
+            <string>图形字体</string>
            </attribute>
+          </widget>
+          <widget class="QWidget" name="tab_39">
+           <attribute name="title">
+            <string>内置图标</string>
+           </attribute>
+          </widget>
+          <widget class="QWidget" name="tab_40">
+           <attribute name="title">
+            <string>视频监控</string>
+           </attribute>
+           <layout class="QGridLayout" name="gridLayout_23">
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_35">
+              <property name="text">
+               <string>通道1</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="label_36">
+              <property name="text">
+               <string>通道2</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <widget class="QLabel" name="label_37">
+              <property name="text">
+               <string>通道3</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="label_38">
+              <property name="text">
+               <string>通道4</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="4">
+             <widget class="QLabel" name="label_39">
+              <property name="text">
+               <string>通道5</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_40">
+              <property name="text">
+               <string>通道6</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="label_41">
+              <property name="text">
+               <string>通道7</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QLabel" name="label_42">
+              <property name="text">
+               <string>通道8</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLabel" name="label_43">
+              <property name="text">
+               <string>通道9</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="4">
+             <widget class="QLabel" name="label_44">
+              <property name="text">
+               <string>通道10</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
           </widget>
          </widget>
         </item>
        </layout>
       </widget>
-      <widget class="QWidget" name="tab_11">
-       <attribute name="title">
-        <string>设备面板</string>
-       </attribute>
-      </widget>
-      <widget class="QWidget" name="tab_12">
-       <attribute name="title">
-        <string>图形字体</string>
-       </attribute>
-      </widget>
-      <widget class="QWidget" name="tab_13">
-       <attribute name="title">
-        <string>内置图标</string>
-       </attribute>
-      </widget>
-      <widget class="QWidget" name="tab_14">
-       <attribute name="title">
-        <string>视频监控</string>
-       </attribute>
-       <layout class="QGridLayout" name="gridLayout_12">
-        <item row="0" column="0">
-         <widget class="QLabel" name="label_13">
-          <property name="text">
-           <string>通道1</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="1">
-         <widget class="QLabel" name="label_14">
-          <property name="text">
-           <string>通道2</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="2">
-         <widget class="QLabel" name="label_15">
-          <property name="text">
-           <string>通道3</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="3">
-         <widget class="QLabel" name="label_16">
-          <property name="text">
-           <string>通道4</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="4">
-         <widget class="QLabel" name="label_17">
-          <property name="text">
-           <string>通道5</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="0">
-         <widget class="QLabel" name="label_18">
-          <property name="text">
-           <string>通道6</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="1">
-         <widget class="QLabel" name="label_19">
-          <property name="text">
-           <string>通道7</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="2">
-         <widget class="QLabel" name="label_20">
-          <property name="text">
-           <string>通道8</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="3">
-         <widget class="QLabel" name="label_21">
-          <property name="text">
-           <string>通道9</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="4">
-         <widget class="QLabel" name="label_22">
-          <property name="text">
-           <string>通道10</string>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignCenter</set>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </widget>
+      <widget class="QWidget" name="page_2"/>
      </widget>
     </item>
    </layout>
-   <zorder>tabWidget_2</zorder>
-   <zorder>pushButton</zorder>
-   <zorder>pushButton_2</zorder>
-   <zorder>pushButton_3</zorder>
-   <zorder>pushButton_4</zorder>
-   <zorder>tabWidget</zorder>
-   <zorder>textEdit</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>843</width>
+     <width>1149</width>
      <height>22</height>
     </rect>
    </property>

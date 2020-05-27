@@ -15,6 +15,16 @@ public:
     MainFrame(QWidget *parent = nullptr);
     ~MainFrame();
 
+private slots:
+    void initLeftListWidget();
+    void initTableWidget();
+    void initTreeWidget();
+    void initListWidget();
+    void initOther();
+    void initStyle();
+    void initTranslator();
+    void stylePageInit();
+
 private:
     Ui::MainFrame *ui;
 };
